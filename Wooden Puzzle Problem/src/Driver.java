@@ -92,7 +92,7 @@ public class Driver {
 			board = ExecuteOnebyTwo(direction, piece, board, emptyLoc);
 		else if(piece.equals("F")||piece.equals("G")||piece.equals("H")||piece.equals("I"))
 			board = ExecuteOnebyOne(direction, piece, board, emptyLoc);
-		else if(piece.equals("J"));
+		else if(piece.equals("J"))
 			board = ExecuteTwobyTwo(direction, piece, board, emptyLoc);
 		
 		//in.close(); //troubles reopening
